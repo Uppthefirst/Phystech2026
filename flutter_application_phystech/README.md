@@ -1,4 +1,4 @@
-# flutter_application_phystech_test
+# flutter_application_phystech
 
 A new Flutter project.
 
