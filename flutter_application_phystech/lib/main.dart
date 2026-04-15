@@ -98,10 +98,27 @@ class _MyAppState extends State<MyApp> {
           ),
         ),
 
-        body: Center(
-          child: Text(
-            pages[selectedIndex],
-            style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+        body: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF0F4C5C),
+                Color(0xFF062B2B),
+                Colors.black,
+              ],
+            ),
+          ),
+          child: Center(
+            child: Text(
+              pages[selectedIndex],
+              style: const TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.w600,
+                color: Colors.white,
+              ),
+            ),
           ),
         ),
 
